@@ -1,0 +1,102 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 2em;
+  color: #468A50;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #468A50;
+}
+
+.entry-link {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.entry-link p {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  color: #468A50;
+}
+
+.entry-button {
+  display: inline-block;
+  background-color: #FAFBE9;
+  color: #468A50;
+  text-decoration: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  font-size: 0.95em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: 2px solid #468A50;
+  border-radius: 999px; 
+}
+
+.entry-button:hover {
+  background-color: #468A50;
+  color: #F3F6CE;
+}
+
+
+.controls {
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+
+button {
+  background-color: #468A50;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 0 0.4em;
+  font-size: 0.95em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #468A50;
+}
+
+table {
+  width: 100%;
+  max-width: 400px; /* 表全体を細くする */
+  margin: 0 auto;    /* 中央揃え */
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  font-size: 0.95em;
+  table-layout: fixed; /* ← 列幅を均等にする */
+}
+
+th, td {
+  border: 1px solid #D6E7D1;
+  padding: 0.6em;
+  text-align: center;
+  width: 50%; /* ← 2列を均等に分ける */
+  word-wrap: break-word;
+}
+
+
+th {
+  background-color: #C3DBBB;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #FAFBE9;
+}

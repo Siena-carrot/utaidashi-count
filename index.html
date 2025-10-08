@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スプレッドシート集計</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>歌い出しカルタの現在の集計状況</h1>
+    <div class="entry-link">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4dF_osbCKEVWIVVw-QbXTtif5dOFRJHBHFX70FLACLLCnqw/viewform?usp=header" class="entry-button">投稿する</a>
+  </div>
+    <div class="controls">
+      <button onclick="sortTable('desc')">多い順</button>
+      <button onclick="sortTable('asc')">少ない順</button>
+      <button onclick="sortTable('kana')">五十音順</button>
+    </div>
+    <table id="data-table">
+      <thead>
+        <tr><th>かな</th><th>集まってる曲数</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
 
